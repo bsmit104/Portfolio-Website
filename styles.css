@@ -7,9 +7,10 @@
 nav {
   position: fixed;
   top: 0;
-  width: 100%;
-  background-color: #2a5825;;
-  z-index: 1;
+  left: 0;
+  width: 90%;
+  background-color: #2a5825;
+  z-index: 100;
 }
 
 nav {
@@ -38,7 +39,7 @@ nav img {
 .navlinks ul li a{
   color: #fff;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 32px;
 }
 
 .navlinks li a:hover {
@@ -47,6 +48,31 @@ nav img {
 
 .navlinks.sticky li a:hover {
   color: #000;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0; /* add this line */
+  width: 100%;
+  z-index: 100;
+}
+
+@media(max-width:700px) {
+  .navlinks ul li{
+    display: block;
+  }
+
+  .navlinks{
+    position: absolute;
+    background: #2a5825;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
 }
 
 /*
@@ -66,7 +92,8 @@ body {
 h1 {
     /* color: #7474f9;*/
     color: #4e7849;
-    font-size: 32px;
+    font-size: 46px;
+    padding: 8px 12px;
 }
   
 p {
