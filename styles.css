@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Nova Oval', cursive; /*font link*/
+    /*font-family: 'Nova Oval', cursive; font link*/
+    font-family: 'Nova Oval', cursive;
+  font-family: 'Space Mono', monospace;
 }
 
 nav {
@@ -9,7 +11,9 @@ nav {
   top: 0;
   left: 0;
   width: 90%;
-  background-color: #2a5825;
+  /* background-color: #2a5825; */
+  background-color: #000000;
+  /* background-image: url("images/linked3.png"); */
   z-index: 100;
 }
 
@@ -37,13 +41,15 @@ nav img {
 }
 
 .navlinks ul li a{
-  color: #fff;
+  /* color: #fff; */
+  color: #ffffff;
   text-decoration: none;
   font-size: 32px;
 }
 
 .navlinks li a:hover {
-  color: #4e7849;;
+  /*color: #4e7849;*/
+  color: #b31818;
 }
 
 .navlinks.sticky li a:hover {
@@ -58,6 +64,14 @@ nav img {
   z-index: 100;
 }
 
+marquee {
+    height: 30vh;
+}
+
+marquee img {
+    width: 50px;
+}
+
 @media(max-width:700px) {
   .navlinks ul li{
     display: block;
@@ -65,7 +79,8 @@ nav img {
 
   .navlinks{
     position: absolute;
-    background: #2a5825;
+    /* background: #2a5825; */
+    background: #f10b0b;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -85,13 +100,20 @@ nav img {
 
 body {
     /* background-color: #140447; */
-    background-color: #a8cd83;
+    /* background-color: #a8cd83; light green */
+
+    background-image: url("images/bricks.png");
+    background-repeat: repeat;
+    background-size: auto;
+    /*background-color: #010101;*/
     font-family: Arial, sans-serif;
 }
   
 h1 {
     /* color: #7474f9;*/
-    color: #4e7849;
+    /* color: #4e7849; green */
+    /* color: #22ff09; */
+    color: #ffffff;
     font-size: 46px;
     padding: 8px 12px;
 }
@@ -99,6 +121,35 @@ h1 {
 p {
     color: #7474f9;
     font-size: 16px;
+}
+
+h4 {
+  padding: 0px 100px 0px;
+  /* color: #4e7849; */
+  color: #ffffff;
+  font-size: 50px;
+}
+
+h6 {
+  padding: 11px 100px 0px;
+  /* color: #4e7849; */
+  color: #ffffff;
+  font-size: 50px;
+}
+
+h2 {
+  padding: 11px 100px 0px;
+  /* color: #4e7849; */
+  color: #ffffff;
+  font-size: 50px;
+}
+
+
+h3 {
+    padding: 15px 110px;
+    /* color: #4e7849; */
+    color: #ffffff;
+    font-size: 20px;
 }
 
 /* Navbar Styling*/
@@ -162,10 +213,10 @@ p {
     transition: color 0.3s ease;
   }
   .navbar .menu li a:hover {
-    color: #4e7849;
+    color: #ac1d10;
   }
   .navbar.sticky .menu li a:hover {
-    color: #000;
+    color: #b51414;
   }
 /* nav end */
 
@@ -177,8 +228,9 @@ p {
   
   .contact-icons a {
     margin: 0 10px;
-    font-size: 24px;
-    color: #333;
+    font-size: 60px;
+    /* color: #333333; */
+    color: #ffffff;
     transition: color 0.2s ease-in-out;
   }
   
