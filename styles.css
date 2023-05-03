@@ -172,6 +172,62 @@ h7 {
     font-size: 50px;
 }
 
+/* .contact-info {
+  padding: 60px;
+  font-size: 50px;
+  color: #f3f70a;
+  background-color: #4e7849;
+  border-radius: 10px;
+  text-align: center;
+} */
+
+/* @media only screen and (max-width: 600px) {
+  .contact-info {
+    font-size: 30px;
+  }
+} */
+
+ form {
+  margin: 50px auto;
+  padding: 20px;
+  font-size: 30px;
+  max-width: 600px;
+  color: #f3f70a;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: #f3f70a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+*/
+
+sideofcon {
+  padding: 60px 60px 60px 60px;
+  /* color: #4e7849; */
+  color: #f3f70a;
+  font-size: 30px;
+}
 
 sideofphoto {
   padding: 15px 15px 15px 15px;

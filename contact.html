@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,14 +8,16 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
 	<!-- font link from google fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-<!-- end of font link-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	<!-- end of font link-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
+
 <body>
 	<header>
 		<!-- nav-->
@@ -23,44 +26,51 @@
 			<a href="index.html"><img src="images/logo.png"></a>
 			<div class="navlinks">
 				<i class="fa-solid fa-xmark"></i>
-		   		<ul>
+				<ul>
 					<li><a href="index.html">Home</a></li>
-    				<li><a href="about.html">About</a></li>
+					<li><a href="about.html">About</a></li>
 					<li><a href="skills.html">Skills</a></li>
-    				<li><a href="projects.html">Projects</a></li>
-    				<li><a href="contact.html">Contact</a></li>
-		   		</ul>
-		   	</div>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
 			<i class="fa-solid fa-bars"></i>
 		</nav>
 	</header>
 	<main style="padding-top: 150px;">
 		<section id="contact">
 			<h2>CONTACT ME</h2>
-			<sideofphoto><br>
-				bsmit104@ucsc.edu<br>
-				jbrayden35@gmail.com<br>
-				(661)-713-4410
-			</sideofphoto>
-			<form action="index.php" method="post">
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name"><br>
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email"><br>
-
-				<label for="message">Message:</label>
-				<textarea id="message" name="message"></textarea><br>
-
-				<input type="submit" value="Send">
-			</form>
+			<div style="display: flex; align-items: center;">
+				<div style="margin: 20px 20px 30px 50px;">
+					<sideofcon><br>
+						bsmit104@ucsc.edu<br>
+						jbrayden35@gmail.com<br>
+						(661)-713-4410<br><br>
+					</sideofcon>
+					<img src="images/indianabrayden.PNG" style="width: 80%; height: auto; border: 30px solid rgb(87, 10, 8); margin-left: 5px;">
+				</div>
+				<form action="index.php" method="post" style="margin: 50px 50px 0px 20px;">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name"><br>
+	
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email"><br>
+	
+					<label for="message">Message:</label>
+					<textarea id="message" name="message"></textarea><br>
+	
+					<input type="submit" value="Send">
+				</form>
+			</div>
+			<!-- <img src="images/indianabrayden.PNG" style="width: 20%; height: auto; border: 30px solid rgb(87, 10, 8); margin-left: 40px;"> -->
 			<marquee behavior="alternate" scrollamount="15">
 				<marquee behavior="alternate" scrollamount="1%" direction="down">
 					<img src="images/slimr.gif">
 				</marquee>
 			</marquee>
 			<div class="contact-icons">
-				<a href="https://www.linkedin.com/in/brayden-smith-7356ba262/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://www.linkedin.com/in/brayden-smith-7356ba262/" target="_blank"><i
+						class="fab fa-linkedin"></i></a>
 				<a href="https://github.com/bsmit104" target="_blank"><i class="fab fa-github"></i></a>
 				<a href="https://github.com/bsmit104" target="_blank"><i class="fab fa-github"></i></a>
 				<!-- 
@@ -73,4 +83,5 @@
 		<p>&copy; 2023 My Portfolio. All rights reserved.</p>
 	</footer>
 </body>
+
 </html>
