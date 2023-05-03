@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,14 +8,24 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
 	<!-- font link from google fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-<!-- end of font link-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	<!-- end of font link-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<style>
+		iframe {
+			border: none;
+			/* removes the border outline */
+			overflow: hidden;
+			/* hides the scrollbar */
+		}
+	</style>
 </head>
+
 <body>
 	<header>
 		<!-- nav-->
@@ -23,49 +34,131 @@
 			<a href="index.html"><img src="images/logo.png"></a>
 			<div class="navlinks">
 				<i class="fa-solid fa-xmark"></i>
-		   		<ul>
+				<ul>
 					<li><a href="index.html">Home</a></li>
-    				<li><a href="about.html">About</a></li>
+					<li><a href="about.html">About</a></li>
 					<li><a href="skills.html">Skills</a></li>
-    				<li><a href="projects.html">Projects</a></li>
-    				<li><a href="contact.html">Contact</a></li>
-			  		<!-- <li><a href="#home" class="menu-btn">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<!-- <li><a href="#home" class="menu-btn">Home</a></li>
 			  		<li><a href="#about" class="menu-btn">About</a></li>
 			  		<li><a href="#skills" class="menu-btn">Skills</a></li>
 			  		<li><a href="#projects" class="menu-btn">Projects</a></li>
 			  		<li><a href="#contact" class="menu-btn">Contact</a></li> -->
-		   		</ul>
-		   	</div>
+				</ul>
+			</div>
 			<i class="fa-solid fa-bars"></i>
 		</nav>
 	</header>
 	<main style="padding-top: 150px;">
 		<section id="projects">
-			<h2>PROJECTS</h2>
-			<div class="gallery">
+			<!-- <h6>PROJECTS</h6>
+			<section> -->
+
+			<!-- <h6>PROJECTS</h6>
+			<section>
+				<div class="project">
+					<h7>The flower</h7>
+					<div class="project-description">
+						This is a project for my CMPM 120 class where we practiced using the phaser library
+					</div>
+					<iframe src="theflower/theflower.html" width="800" height="1200" style="overflow:hidden;"></iframe>
+				</div>
+			</section> -->
+
+			<section>
+				<h7>The flower</h7>
+				<div class="description">
+				  <sideofphoto>This is a project for my CMPM 120 class where we practiced using the Phaser library.</sideofphoto>
+				</div>
+				<div class="game">
+				  <iframe src="theflower/theflower.html" width="800" height="600" style="overflow:hidden;"></iframe>
+				</div>
+			  </section>
+			  
+			  <style>
+				section {
+				  display: flex;
+				  flex-direction: column;
+				  align-items: center;
+				}
+			  
+				.description {
+				  margin: 10px 10px 0px 50px;
+				}
+			  
+				.game {
+				  margin: 0 10px;
+				}
+			  
+				.sideofphoto {
+				  display: flex;
+				  align-items: center;
+				  justify-content: center;
+				  margin-top: 0;
+				}
+			  </style>
+
+			<!-- <h6>PROJECTS</h6>
+			<section>
+			  <h7>The flower</h7>
+			  <div class="description">
+				<p>This is a project for my CMPM 120 class where we practiced using the Phaser library.</p>
+			  </div>
+			  <div class="game">
+				<iframe src="theflower/theflower.html" width="800" height="600" style="overflow:hidden;"></iframe>
+			  </div>
+			</section>
+			
+			<style>
+			  .description {
+				margin: 10px 20px 30px 50px;
+			  }
+			
+			  .game {
+				margin: 0 20px;
+			  }
+			
+			  .sideofphoto {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-top: 0;
+			  }
+			</style> -->
+
+			<!-- <h7>
+					The flower
+				</h7>
+			<sideofphoto>
+				<iframe src="theflower/theflower.html" width="800" height="600" style="overflow:hidden;"></iframe>
 				<a href="#"><img src="images/slimR.gif"></a>
-				<a href="#"><img src="image2.jpg"></a>
-				<a href="#"><img src="image3.jpg"></a>
 				<a href="#"><img src="image4.jpg"></a>
-			</div>
-            <marquee behavior="alternate" scrollamount="15">
-                <marquee behavior="alternate" scrollamount="1%" direction="down">
-                    <img src="images/slimr.gif">
-                </marquee>
-            </marquee>
+			</sideofphoto> -->
+			<!-- </div> -->
+			<!-- <div class="game-container">
+				<iframe src="theflower/theflower.html" width="800" height="600"></iframe>
+			  </div> -->
+			<marquee behavior="alternate" scrollamount="15">
+				<marquee behavior="alternate" scrollamount="1%" direction="down">
+					<img src="images/slimr.gif">
+				</marquee>
+			</marquee>
 		</section>
-			<div class="contact-icons">
-				<a href="https://www.linkedin.com/in/brayden-smith-7356ba262/" target="_blank"><i class="fab fa-linkedin"></i></a>
-				<a href="https://github.com/bsmit104" target="_blank"><i class="fab fa-github"></i></a>
-				<a href="https://github.com/bsmit104" target="_blank"><i class="fab fa-github"></i></a>
-				<!-- 
+		<div class="contact-icons">
+			<a href="https://www.linkedin.com/in/brayden-smith-7356ba262/" target="_blank"><i
+					class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/bsmit104" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="https://github.com/bsmit104" target="_blank"><i class="fab fa-github"></i></a>
+			<!-- 
 				<a href="https://twitter.com/your-profile-link/" target="_blank"><i class="fab fa-twitter"></i></a> 
 				nav-->
-			</div>
+		</div>
 		</section>
 	</main>
 	<footer>
 		<p>&copy; 2023 My Portfolio. All rights reserved.</p>
 	</footer>
 </body>
+
 </html>
