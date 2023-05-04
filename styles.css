@@ -172,6 +172,13 @@ h7 {
     font-size: 50px;
 }
 
+h15 {
+  padding: 11px 10px 0px;
+  /* color: #4e7849; */
+  color: #bf9d05;
+  font-size: 60px;
+}
+
 /* .contact-info {
   padding: 60px;
   font-size: 50px;
@@ -284,6 +291,13 @@ h3 {
   
   .contact-icons a:hover {
     color: #0077b5;
+  }
+
+  subhead {
+    padding: 60px 60px 60px 0px;
+  /* color: #4e7849; */
+  color: #f3f70a;
+  font-size: 30px;
   }
 
   /* #contact {

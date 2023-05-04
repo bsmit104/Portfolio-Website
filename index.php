@@ -1,10 +1,11 @@
+
 <?php
 // Get data from form 
-$name = $_POST['Brayden'];
-$email= $_POST['jbraudem35@gmail.com'];
+$name = $_POST['name'];
+$email= $_POST['email'];
 $message= $_POST['message'];
  
-$to = "your_email@gmail.com";
+$to = "bsmit104@ucsc.edu";
 $subject = "This is the subject line";
  
 // The following text will be sent
