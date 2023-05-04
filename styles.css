@@ -199,9 +199,9 @@ input[type="text"],
 input[type="email"],
 textarea {
   display: block;
-  width: 100%;
+  width: 250%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 0px; /*20*/
   font-size: 18px;
 }
 
