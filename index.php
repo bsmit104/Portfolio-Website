@@ -12,6 +12,7 @@ $subject = "This is the subject line";
 // Name = user entered name
 // Email = user entered email
 // Message = user entered message
+//getting gitpages to run
 $txt ="Name = ". $name . "\r\n  Email = "
     . $email . "\r\n Message =" . $message;
  
